@@ -1,0 +1,49 @@
+<Button>
+    font_name: "images/CuteFont.ttf"
+    font_size: 40
+    size_hint: 1, .4
+    background_color: (.157, .455, .753, 1)
+    background_normal: ""
+    background_down: ""
+    canvas.before:
+        Color:
+            rgba: (0, 0, 0, 1)
+        Line:
+            width: 2
+            rectangle: self.x, self.y, self.width, self.height
+
+<ColoredLabel@Label>
+    font_size: 30
+    font_name: "images/Mogra.ttf"
+    size_hint: .3, .15
+    color: 0,0,0,1
+
+Panel:
+	slider: slider
+	btn: btn
+	
+	canvas.before:
+		Rectangle:
+			pos: self.pos
+			size: self.size
+			source: "images/bg.jpg"
+
+	Button:
+		id: btn
+		pos_hint: {"x": 0, "top": .4}
+		text: "START"
+		on_press:
+			root.change_button()
+
+	Slider:
+		id: slider
+		min: 2
+		max: 200
+		step: 1
+		orientation: "horizontal"
+		size_hint: 1, .1
+		pos_hint: {"x": 0, "top": .9}
+
+	ColoredLabel:
+		pos_hint: {"x": .35, "top": .7}
+		text: str(slider.value) + " CPS"
