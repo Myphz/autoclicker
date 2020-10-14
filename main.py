@@ -51,9 +51,7 @@ class Panel(FloatLayout):
 			self.change_button()
 
 	def create_listener(self):
-		listener = keyboard.Listener(
-	    	on_release=lambda key, *args: self.on_release(self, key, *args)
-	    )
+		listener = keyboard.Listener(on_release=lambda key, *args: self.on_release(self, key, *args))
 		listener.start()
 
 
