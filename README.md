@@ -1,4 +1,4 @@
-# A simple autoclicker using PyAutoGUI, Kivy and Pynput!
+# A simple autoclicker made with PyAutoGUI, Kivy and Pynput!
 
 ## Instructions
 To execute this file, install all the dependencies listed below, download all files and put them in the same folder.\
