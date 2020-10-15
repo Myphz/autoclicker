@@ -1,5 +1,10 @@
 # A simple autoclicker made with PyAutoGUI, Kivy and Pynput!
 
+## Information
+A simple autoclicker with a minimalist design.\
+You can choose your desired amount of CPS by moving the slider to the right.\
+**Press F4 to enable/disable the autoclicker!**
+
 ## Instructions
 To execute this file, install all the dependencies listed below, download all files and put them in the same folder.\
 Execute the python file by executing the command prompt in the same directory as the files and typing ```python code.py```
