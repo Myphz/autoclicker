@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# ULTRA CLICKER 1.0
 
-You can use the [editor on GitHub](https://github.com/Myphz/autoclicker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Information
+A simple autoclicker with a minimalist design.\
+You can choose your desired amount of CPS by moving the slider to the right.\
+**Press F4 to enable/disable the autoclicker!**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Instructions
+To execute this file, install all the dependencies listed below, download all files and put them in the same folder.\
+Execute the python file by executing the command prompt in the same directory as the files and typing ```python code.py```
+### To enable or disable the autoclicker, just press the F4 key on your keyboard!
+## Dependencies
+- Kivy (go to https://kivy.org/doc/stable/installation/installation-windows.html for instructions on installation)
+- PyAutoGUI (install by typing on the cmd ```pip install pyautogui```)
+- Pynput (install by typing on the cmd ```pip install pynput```)
+- KivyOnTop (install by typing on the cmd ```pip install kivyontop```)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Myphz/autoclicker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+*If you want to convert it to an executable file, you can do so by using PyInstaller.*\
+However, you might have to downgrade the Pynput module to an older version. You can do so by typing on the cmd ```pip install pynput==1.6.8```
