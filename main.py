@@ -34,7 +34,6 @@ class Panel(FloatLayout):
 		Clock.unschedule(self.click)
 
 	def change_button(self):
-		print("sono stato cliccato.")
 		if self.on:
 			self.btn.background_color = (.157, .455, .753, 1)
 			self.btn.text = "START"
